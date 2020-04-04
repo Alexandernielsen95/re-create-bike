@@ -1,0 +1,90 @@
+*: {
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background: #F0EFEA;
+
+}
+
+ul {
+    list-style-type: none;
+    font-size: 25px;
+    color: grey;
+}
+
+li {
+    color: #C2A59E;
+    display: inline;
+    padding: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    padding: 10px;
+    grid-gap: 2rem;
+
+}
+
+img {
+    width: 100%;
+}
+
+.info {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    padding: 1rem
+}
+
+header img {
+    width: 20%;
+
+}
+
+#color_bike3 {
+    width: 35%;
+    margin-left: 85px;
+}
+
+#color_bike4 {
+    width: 21%;
+    margin-left: 85px;
+}
+
+#color_bike5 {
+    width: 35%;
+    margin-left: 85px;
+}
+
+#color_bike6 {
+    width: 16%;
+    margin-left: 85px
+}
+
+article {
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    background: white;
+}
+
+button {
+    margin-top: auto;
+    background: white;
+    color: #C2A59E;
+    padding: 0.2rem;
+    border: 2px solid #C2A59E;
+    font-size: 1.1rem;
+    align-self: center;
+}
+
+.bikeName,
+h2,
+p {
+    color: grey;
+}
